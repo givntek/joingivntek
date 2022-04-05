@@ -1,0 +1,32 @@
+{% load static %}
+
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Join Givntek</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'join/style.css' %}">
+    <script src="script.js"></script>
+</head>
+
+    <body class="font-serif">
+        <div id="page">
+        <header>
+            <nav class="container">
+              <ul class="flex w-100 content-around items-center vh-5  font-sans"> 
+                <li>Rejoindre</li>
+                <li>Applications</li>
+                <li>Documentation</li>
+                <li>Obtenir de l'aide</li>
+                <li>Vous en voulez encore ?</li>
+              </ul>
+            </nav>
+        </header>
+        {% block content %}{% endblock content %}
+        <footer class="container">
+            <p  class="center small vh-5 flex items-center content-center">Attention : l'application est encore en développement, toutes les fonctionnalités ne sont pas encore disponibles.</p>
+        </footer>
+        </div>
+    </body>
+</html>
