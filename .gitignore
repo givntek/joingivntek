@@ -33,6 +33,7 @@ venv.bak/
 bin/
 lib/
 pyvenv.cfg
+data/
 
 # mkdocs documentation 
 /site 
