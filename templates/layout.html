@@ -1,5 +1,5 @@
 {% load static %}
-
+{% load i18n %}
 <!doctype html>
 <html lang="fr">
 
@@ -19,13 +19,16 @@
                 <li>Applications</li>
                 <li>Documentation</li>
                 <li>Obtenir de l'aide</li>
-                <li>Vous en voulez encore ?</li>
+                <li>{% include 'join/parts/language-select.html' %}</li>
+                <li></li>
               </ul>
             </nav>
         </header>
         {% block content %}{% endblock content %}
         <footer class="container">
-            <p  class="center small vh-5 flex items-center content-center">Attention : l'application est encore en développement, toutes les fonctionnalités ne sont pas encore disponibles.</p>
+            <p  class="center small vh-5 flex items-center content-center">Attention : l'application est encore en développement, toutes les fonctionnalités ne sont pas encore disponibles.<br>
+                Warning: the application is still under development, all features are not yet available.
+            </p>
         </footer>
         </div>
     </body>

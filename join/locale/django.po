@@ -1,0 +1,7 @@
+#: .\i18n_app\templates\index.html:9
+msgid "I am localized inside the template."
+msgstr "Sono localizzato all'interno del modello."
+
+#: .\i18n_app\views.py:7
+msgid "I am localized inside the view."
+msgstr "Sono localizzato all'interno della vista."
