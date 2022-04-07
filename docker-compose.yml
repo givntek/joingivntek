@@ -1,4 +1,4 @@
-version: "3"
+version: "3.5"
    
 services:
   db:
@@ -9,17 +9,24 @@ services:
       - POSTGRES_DB=postgres
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
+    networks:
+      - be
   web:
     build: .
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/code
-    ports:
-      - "8000:8000"
     environment:
       - POSTGRES_NAME=postgres
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
     depends_on:
       - db
+    networks:
+      - joingivntek
+      - be
 
+networks:
+    joingivntek:
+      name: joingivntek
+    be:
