@@ -10,38 +10,29 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="{% static 'join/apple-touch-icon.png' %}"
+      href="{% static 'apple-touch-icon.png' %}"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="{% static 'join/favicon-32x32.png' %}"
+      href="{% static 'favicon-32x32.png' %}"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="{% static 'join/favicon-16x16.png' %}"
+      href="{% static 'favicon-16x16.png' %}"
     />
-    <link rel="manifest" href="{% static 'join/site.webmanifest' %}" />
-    <link rel="stylesheet" type="text/css" href="{% static 'join/css/style.css' %}">
-    <script src="{% static 'join/js/main.js' %}"></script>
+    <link rel="manifest" href="{% static 'site.webmanifest' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/main.js' %}"></script>
 </head>
 
     <body class="font-serif">
         <div id="page">
         <header>
-            <nav class="container">
-              <ul class="flex w-100 content-around items-center vh-5  font-sans"> 
-                <li>Rejoindre</li>
-                <li>Applications</li>
-                <li>Documentation</li>
-                <li>Obtenir de l'aide</li>
-                <li>{% include 'join/parts/language-select.html' %}</li>
-                <li></li>
-              </ul>
-            </nav>
+          {% include 'parts/menu.html' %}
         </header>
         {% block content %}{% endblock content %}
         <footer class="container">

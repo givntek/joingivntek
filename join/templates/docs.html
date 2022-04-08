@@ -1,0 +1,22 @@
+{% extends "layout.html" %} {% block content %}
+<section class="flex">
+  <aside class="w-25">{% include 'parts/menu-docs.html' %}</aside>
+  <main>
+    {% block main %}
+    <h2>Welcome</h2>
+    <p>
+      GivnTek is a social network for exchanging goods, and choosing how you
+      want to give your objects or take others possessions. Federation allows
+      GivnTek users to join small, trusted bazaars that can connect with one
+      another, and with other ActivityPub services like Mastodon and Pleroma.
+    </p>
+    <h3>Features</h3>
+    <p>
+      Since the project is still in its early stages, the features are growing
+      every day, and there is plenty of room for suggestions and ideas. Open an
+      issue to get the conversation going!
+    </p>
+    {% endblock main %}
+  </main>
+</section>
+{% endblock content %}
