@@ -21,7 +21,10 @@ def docs(request):
     return render(request, 'docs.html')
 
 def getHelp(request):
-    return render(request, 'get-help.html')
+    context = {
+        'matrixurl': 'https://matrix.to/#/#givntek:matrix.org'
+    }
+    return render(request, 'get-help.html', context)
 
 
 def activitypub(request):
