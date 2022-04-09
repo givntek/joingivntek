@@ -4,13 +4,11 @@
 {% block content %}
 <section>
     <div class="container center">
-      <h1 class="font-fira">Givn<strong>Tek</strong></h1>
-      <h2 class="font-fira">Un site d'annonces pour le fediverse</h2>
-      {{ localize_key }}  {#2#}
-      {% translate "I am localized inside the template." %} 
+      <h1 class="font-fira">GivnTek</h1>
+      <h2 class="font-fira">{% trans "An ad site for the fediverse" %}</h2>
       <ul class="flex w-50 content-around mx-auto">
-        <li class=""><a class="button primary font-sans" href="">Rejoindre un serveur</a></li>
-        <li class=""><a class="button primary font-sans" href="">Héberger un serveur</a></li>
+        <li class=""><a class="button primary font-sans" href="">{% trans "Join a server" %}</a></li>
+        <li class=""><a class="button primary font-sans" href="">{% trans "Host a server" %}</a></li>
       </div>
     </div>
     
@@ -20,28 +18,28 @@
   
     <div class="container">
       <div class="text-center">
-        <h2 class="font-fira center">Echangez des objets partout dans le monde</h2>
+        <h2 class="font-fira center">{% trans "Exchange items all over the world" %}</h2>
         <p>
-        <div><a href="https://github.com/givntek">GivnTek</a> s'apparente à un site comme <a href="https://www.vinted.com/">Vinted</a> : vous mettez en favoris les objets qui vous intéressent, vous faite des offres, et vous vous arrangez avec les autres inscrits. GivnTek n'est pas seulement une alternative à Vinted ; c'est un réseau de sites interconnectés gérées par des communautés différentes, qui se combinent toutes pour créer <b>un seul et unique grand bazar</b> avec toutes les annonces qui vous plaisent.</div>
+          {% blocktrans with githuburl=links.github vintedurl=links.vinted rakutenurl=links.rakuten %}<a href="{{ githuburl }}">GivnTek</a> is similar to a site like <a href="{{ vintedurl }}">Vinted</a> : you bookmark the items you are interested in, make offers, and make arrangements with other members. GivnTek is not just an alternative to Vinted; it's a network of interconnected sites run by different communities, all of which combine to create <strong>one big bazaar</strong> with all the listings you like.{% endblocktrans %}
         </p>
-        <p class="center"><a class="button primary font-sans" href="/instances">Rejoindre un serveur</a></p>
+        <p class="center"><a class="button primary font-sans" href="/instances">{% trans "Join a server" %}</a></p>
       </div>
     </div>
     <section>
         <div class="container grid cols-3">
             <article>
-                <h3  class="font-fira center">Optimisez votre bazar</h3>
-                <p>Faites l'inventaire de vos objets, indiquez ceux que vous donnez, ceux que vous aimeriez échanger et ceux que vous souhaitez vendre. Vous gardez le contrôle sur les transactions, tout le temps.</p>
+                <h3  class="font-fira center">{% trans "Optimize your bazaar" %}</h3>
+                <p>{% trans "Take inventory of your items, indicate which ones you give away, which ones you would like to trade and which ones you want to sell. You keep control of the transactions, at all times." %}</p>
             </article>
         
             <article>
-                <h3  class="font-fira center">Surveillez plusieurs zones géographiques</h3>
-                <p>Vos espaces locaux sont aussi nombreux que les adresses dans votre profil. Etendez votre champ d'action sans passer par un transporteur.</p>
+                <h3  class="font-fira center">{% trans "Monitor multiple geographic areas" %}</h3>
+                <p>{% trans "Your local areas are as numerous as the addresses in your profile. Expand your reach without going through a carrier." %}</p>
             </article>
         
             <article>
-                <h3  class="font-fira center">Tissez du lien par les objets</h3>
-                <p>Parce que nos possessions dépendent de nos activités, en échangeant des objets vous rencontrez des personnes qui partagent vos goûts, vos compétences, vos loisirs. Soyez ouverts aux nouvelles rencontres.</p>
+                <h3  class="font-fira center">{% trans "Connect through objects" %}</h3>
+                <p>{% trans "Because our possessions depend on our activities, by exchanging objects you meet people who share your tastes, your skills, your hobbies. Be open to new relations." %}</p>
             </article>
         </div>
     </section>
@@ -49,12 +47,9 @@
     <section>
   
       <article>
-          <h2  class="font-fira center">Mettez de plus en plus de bazar !</h2>
-        <p>Avec GivnTek, vous pouvez facilement héberger votre propre serveur, et créer votre petit marché pour vous et votre famille. Grâce à la fédération, vos annonces apparaissent sur tous les autres serveurs connectés, et vous avez également accès aux bazars de leurs utilisateurs. Vous n'avez pas besoin de faire un compte sur chaque site : ils sont tous conçus pour vous reconnaître.</p>
+          <h2  class="font-fira center">{% trans "Make more and more bazaar !" %}</h2>
+        <p>{% trans "With GivnTek, you can easily host your own server, and create your own little market for you and your family. Thanks to the federation, your ads appear on all other connected servers, and you also have access to the bazaars of their users. You don't need to create an account on each site: they are all designed to recognize you." %}</p>
       </article>
   
-    </section>
-  
-
-  
+    </section>    
 {% endblock content %}

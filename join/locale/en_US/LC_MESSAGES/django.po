@@ -1,0 +1,247 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-09 09:52+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: join/settings.py:125
+msgid "English"
+msgstr ""
+
+#: join/settings.py:130
+msgid "Français (French)"
+msgstr ""
+
+#: join/templates/contribute.html:7
+msgid "Contribute"
+msgstr ""
+
+#: join/templates/contribute.html:8
+msgid "Open-source power is in your hands"
+msgstr ""
+
+#: join/templates/contribute.html:14
+msgid "Our philosophy"
+msgstr ""
+
+#: join/templates/contribute.html:17
+msgid ""
+"\n"
+"        GivnTek is designed to help humanity to be able to trade\n"
+"        without the help of big actors of e-commerce. We believe in the strength of the local level, even in time of war or network downsizing, and thus bring people from\n"
+"        the same community together. We hope that you will find GivnTek\n"
+"        convenient and that you will use it for your transactions on a regular\n"
+"        basis, at least if you have to do it with computers. \n"
+"        "
+msgstr ""
+
+#: join/templates/contribute.html:27
+msgid "If you have feature requests, bug reports, or grand dreams, we'd love for you to join the conversation."
+msgstr ""
+
+#: join/templates/contribute.html:34
+msgid "Who are you ?"
+msgstr ""
+
+#: join/templates/contribute.html:36
+msgid ""
+"GivnTek is a dream made by\n"
+"              <a href=\"https://blog.fxguillois.email\">FX Guillois</a> and maintained by him and his\n"
+"              friends. Hey, why don't you come on board and begin coding ? There\n"
+"              is still a lot of features that await to exist for allow humans to\n"
+"              exchange their goods.\n"
+"              "
+msgstr ""
+
+#: join/templates/contribute.html:47
+msgid "Bugs and Feature Requests"
+msgstr ""
+
+#: join/templates/contribute.html:49
+msgid ""
+"GivnTek's bug tracker and code are hosted on\n"
+"          <a href=\"https://github.com/givntek/givntek/issues\" target=\"_blank\"\n"
+"            >GitHub</a\n"
+"          >\n"
+"          — it's the best place to report bugs and make feature requests. "
+msgstr ""
+
+#: join/templates/contribute.html:58 join/templates/parts/menu-docs.html:12
+msgid "Translations"
+msgstr ""
+
+#: join/templates/contribute.html:60
+msgid "Help translate GivnTek into other languages !"
+msgstr ""
+
+#: join/templates/contribute.html:61
+msgid "You can learn more about the translation process in our documentation."
+msgstr ""
+
+#: join/templates/contribute.html:66
+msgid "Social Media"
+msgstr ""
+
+#: join/templates/contribute.html:68
+msgid ""
+"You can follow GivnTek on <a href=\"\" target=\"_blank\">Mastodon</a> to\n"
+"          get updates about new features. Feel free to tag the account or send a\n"
+"          direct message if you'd like to get in touch."
+msgstr ""
+
+#: join/templates/contribute.html:75
+msgid "Developer Chat"
+msgstr ""
+
+#: join/templates/contribute.html:77
+msgid ""
+"We use\n"
+"          <a href=\"https://matrix.to/#/#givntek:matrix.org\" target=\"_blank\"\n"
+"            >Matrix</a\n"
+"          >\n"
+"          for GivnTek development chat — it's a great place to ask questions and\n"
+"          get help. It's focused on development of GivnTek software and running\n"
+"          GivnTek instances, but all kinds of GivnTek discussion is welcome."
+msgstr ""
+
+#: join/templates/index.html:8
+msgid "An ad site for the fediverse"
+msgstr ""
+
+#: join/templates/index.html:10 join/templates/index.html:25
+msgid "Join a server"
+msgstr ""
+
+#: join/templates/index.html:11
+msgid "Host a server"
+msgstr ""
+
+#: join/templates/index.html:21
+msgid "Exchange items all over the world"
+msgstr ""
+
+#: join/templates/index.html:23
+#, python-format
+msgid "<a href=\"%(githuburl)s\">GivnTek</a> is similar to a site like <a href=\"%(vintedurl)s\">Vinted</a> : you bookmark the items you are interested in, make offers, and make arrangements with other members. GivnTek is not just an alternative to Vinted; it's a network of interconnected sites run by different communities, all of which combine to create <strong>one big bazaar</strong> with all the listings you like."
+msgstr ""
+
+#: join/templates/index.html:31
+msgid "Optimize your bazaar"
+msgstr ""
+
+#: join/templates/index.html:32
+msgid "Take inventory of your items, indicate which ones you give away, which ones you would like to trade and which ones you want to sell. You keep control of the transactions, at all times."
+msgstr ""
+
+#: join/templates/index.html:36
+msgid "Monitor multiple geographic areas"
+msgstr ""
+
+#: join/templates/index.html:37
+msgid "Your local areas are as numerous as the addresses in your profile. Expand your reach without going through a carrier."
+msgstr ""
+
+#: join/templates/index.html:41
+msgid "Connect through objects"
+msgstr ""
+
+#: join/templates/index.html:42
+msgid "Because our possessions depend on our activities, by exchanging objects you meet people who share your tastes, your skills, your hobbies. Be open to new relations."
+msgstr ""
+
+#: join/templates/index.html:50
+msgid "Make more and more bazaar !"
+msgstr ""
+
+#: join/templates/index.html:51
+msgid "With GivnTek, you can easily host your own server, and create your own little market for you and your family. Thanks to the federation, your ads appear on all other connected servers, and you also have access to the bazaars of their users. You don't need to create an account on each site: they are all designed to recognize you."
+msgstr ""
+
+#: join/templates/layout.html:9
+msgid "Join Givntek"
+msgstr ""
+
+#: join/templates/layout.html:40
+msgid "Warning: the application is still under development, all features are not yet available."
+msgstr ""
+
+#: join/templates/parts/menu-docs.html:3
+msgid "codebase"
+msgstr ""
+
+#: join/templates/parts/menu-docs.html:5
+msgid "ActivityPub"
+msgstr ""
+
+#: join/templates/parts/menu-docs.html:6
+msgid "Permissions"
+msgstr ""
+
+#: join/templates/parts/menu-docs.html:8
+msgid "contribute"
+msgstr ""
+
+#: join/templates/parts/menu-docs.html:10
+msgid "How to contribute"
+msgstr ""
+
+#: join/templates/parts/menu-docs.html:11
+msgid "Developer environment"
+msgstr ""
+
+#: join/templates/parts/menu-docs.html:13
+msgid "customize givntek"
+msgstr ""
+
+#: join/templates/parts/menu-docs.html:16
+msgid "running givntek"
+msgstr ""
+
+#: join/templates/parts/menu-docs.html:18
+msgid "Put in production"
+msgstr ""
+
+#: join/templates/parts/menu-docs.html:19
+msgid "Updating your instance"
+msgstr ""
+
+#: join/templates/parts/menu-docs.html:20
+msgid "Images"
+msgstr ""
+
+#: join/templates/parts/menu-docs.html:21
+msgid "Docker"
+msgstr ""
+
+#: join/templates/parts/menu.html:4
+msgid "Back home"
+msgstr ""
+
+#: join/templates/parts/menu.html:5
+msgid "Join"
+msgstr ""
+
+#: join/templates/parts/menu.html:7
+msgid "Code"
+msgstr ""
+
+#: join/templates/parts/menu.html:8
+msgid "Documentation"
+msgstr ""
+
+#: join/templates/parts/menu.html:9
+msgid "Get help"
+msgstr ""

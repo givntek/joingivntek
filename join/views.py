@@ -1,15 +1,15 @@
 from django.shortcuts import render
-from django.utils.translation import gettext as _  # 1
 
 # Create your views here.
 def index(request):
-    if request.LANGUAGE_CODE == 'en-us':
-        return render(request, 'index-en.html')
-    else:
-        context_dict = { 
-            'localize_key': _('I am localized inside the view.') 
+    context = {
+        'links': {
+            'github': 'https://github.com/givntek',
+            'vinted': 'https://www.vinted.fr/',
+            'rakuten': 'https://shopping.rakuten.com/'
         }
-        return render(request, 'index.html', context_dict)
+    }
+    return render(request, 'index.html', context)
 
 def join(request):
     return render(request, 'join.html')

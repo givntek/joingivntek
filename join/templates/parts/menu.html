@@ -1,12 +1,12 @@
-{% load static %}
+{% load static %}{% load i18n %}
 <nav class="container">
     <ul class="flex w-100 content-around items-center vh-5  font-sans"> 
-      <li><a href="/" title="Retour à l'accueil"><img src="{% static 'logo/givntek-logo-icon.png' %}" alt="logo" height="36" /></a></li>
-      <li><a href="/join">Rejoindre</a></li>
-      <li><a href="/contribute">Contribuez</a></li>
-      <li><a href="https://github.com/givntek/givntek" target="_blank">Code</a></li>
-      <li><a href="/documentation">Documentation</a></li>
-      <li><a href="/get-help">Obtenir de l'aide</a></li>
+      <li><a href="/" title="{% trans "Back home" %}"><img src="{% static 'logo/givntek-logo-icon.png' %}" alt="logo" height="36" /></a></li>
+      <li><a href="/join">{% trans "Join" %}</a></li>
+      <li><a href="/contribute">{% trans "Contribute %}</a></li>
+      <li><a href="https://github.com/givntek/givntek" target="_blank">{% trans "Code" %}</a></li>
+      <li><a href="/documentation">{% trans "Documentation" %}</a></li>
+      <li><a href="/get-help">{% trans "Get help" %}</a></li>
       <li>{% include 'parts/language-select.html' %}</li>
       <li></li>
     </ul>

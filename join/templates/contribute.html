@@ -1,92 +1,86 @@
-{% extends "layout.html" %} {% block content %}
+{% extends "layout.html" %} 
+{% load i18n %}
+{% block content %}
 <div class="container">
   <section class="section">
     <header class="block">
-      <h1 class="title is-1">Contribute</h1>
-      <p class="subtitle">Open-source power is in your hands</p>
+      <h1 class="title is-1">{% trans "Contribute" %}</h1>
+      <p class="subtitle">{% trans "Open-source power is in your hands" %}</p>
     </header>
   </section>
 
   <section class="section p-5">
     <div class="block content">
-        <h2 class="title is-5">Our philosophy</h2>
+        <h2 class="title is-5">{% trans "Our philosophy" %}</h2>
       
     <p>
+      {% blocktrans %}
         GivnTek is designed to help humanity to be able to trade
         without the help of big actors of e-commerce. We believe in the strength of the local level, even in time of war or network downsizing, and thus bring people from
         the same community together. We hope that you will find GivnTek
         convenient and that you will use it for your transactions on a regular
         basis, at least if you have to do it with computers. 
-    <p>
+        {% endblocktrans %}
+        <p>
     
     </p>
-    If you have feature
-        requests, bug reports, or grand dreams, we'd love for you to join the
-        conversation.
+    {% trans "If you have feature requests, bug reports, or grand dreams, we'd love for you to join the conversation." %}
       </p>
     </div>
 
     <div class="block">
       <div class="notification has-background-white-bis" id="maintainer">
           <div class="column content">
-            <h2 class="title is-5">Who are you ?</h2>
+            <h2 class="title is-5">{% trans "Who are you ?" %}</h2>
             <p>
-              GivnTek is a dream made by
+              {% blocktrans %}GivnTek is a dream made by
               <a href="https://blog.fxguillois.email">FX Guillois</a> and maintained by him and his
               friends. Hey, why don't you come on board and begin coding ? There
               is still a lot of features that await to exist for allow humans to
               exchange their goods.
+              {% endblocktrans %}
             </p>
           </div>
       </div>
 
       <div class="notification has-background-primary-light" id="github">
-        <h2 class="title is-5">Bugs and Feature Requests</h2>
+        <h2 class="title is-5">{% trans "Bugs and Feature Requests" %}</h2>
         <p>
-          GivnTek's bug tracker and code are hosted on
+          {% blocktrans %}GivnTek's bug tracker and code are hosted on
           <a href="https://github.com/givntek/givntek/issues" target="_blank"
             >GitHub</a
           >
-          — it's the best place to report bugs and make feature requests.
+          — it's the best place to report bugs and make feature requests. {% endblocktrans %}
         </p>
       </div>
 
       <div class="notification has-background-success-light" id="translate">
-        <h2 class="title is-5">Translations</h2>
+        <h2 class="title is-5">{% trans "Translations" %}</h2>
         <p>
-          Help
-          <a href="https://translate.joinbookwyrm.com/" target="_blank"
-            >translate</a
-          >
-          GivnTek into other languages! You can learn more about the translation
-          process in our
-          <a
-            href="https://docs.joinbookwyrm.com/translations.html"
-            target="_blank"
-            >documentation</a
-          >.
+          {% trans "Help translate GivnTek into other languages !" %}  
+          {% trans "You can learn more about the translation process in our documentation." %}
         </p>
       </div>
 
       <div class="notification has-background-link-light" id="social">
-        <h2 class="title is-5">Social Media</h2>
+        <h2 class="title is-5">{% trans "Social Media" %}</h2>
         <p>
-          You can follow GivnTek on <a href="" target="_blank">Mastodon</a> to
+          {% blocktrans %}You can follow GivnTek on <a href="" target="_blank">Mastodon</a> to
           get updates about new features. Feel free to tag the account or send a
-          direct message if you'd like to get in touch.
+          direct message if you'd like to get in touch.{% endblocktrans %}
         </p>
       </div>
 
       <div class="notification has-background-info-light" id="dev-chat">
-        <h2 class="title is-5">Developer Chat</h2>
+        <h2 class="title is-5">{% trans "Developer Chat" %}</h2>
         <p>
-          We use
+          {% blocktrans %}We use
           <a href="https://matrix.to/#/#givntek:matrix.org" target="_blank"
             >Matrix</a
           >
           for GivnTek development chat — it's a great place to ask questions and
           get help. It's focused on development of GivnTek software and running
-          GivnTek instances, but all kinds of GivnTek discussion is welcome.
+          GivnTek instances, but all kinds of GivnTek discussion is welcome.{% endblocktrans %}
         </p>
       </div>
     </div>
